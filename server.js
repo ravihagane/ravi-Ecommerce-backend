@@ -2,7 +2,7 @@ const { response } = require("express");
 const express = require("express");
 const app = express();
 
-app.get("/home", (request, response, next) => {
+app.get("/", (request, response, next) => {
   response.end("Hi this is Home page!");
 });
 
